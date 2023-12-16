@@ -1,0 +1,32 @@
+{
+  "name": "lab1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:basic_auth": "node ./basic_auth/index.js",
+    "start:forms_auth": "node ./forms_auth/index.js",
+    "start:token_auth": "node ./token_auth/index.js",
+    "start:jwt_auth": "node ./jwt_auth/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kreolwolf1/auth_examples.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kreolwolf1/auth_examples/issues"
+  },
+  "homepage": "https://github.com/Kreolwolf1/auth_examples#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cookie-parser": "^1.4.6",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "on-finished": "^2.4.1",
+    "path": "^0.12.7",
+    "uuid": "^9.0.1"
+  }
+}
